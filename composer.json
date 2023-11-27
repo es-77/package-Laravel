@@ -1,0 +1,22 @@
+{
+    "name": "emmanuel/querybuilderpackage",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Emmanuel\\Querybuilderpackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emmanuel"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emmanuel\\Querybuilderpackage\\QueryBuilderPackageServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
